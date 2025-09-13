@@ -78,8 +78,5 @@ Deep Learning (Coursera) — Certificate ID: YVCJLYZASWRJ
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ra5hidIslam&size_weight=0.5&count_weight=0.5)
 
-Replace the LinkedIn / GitHub links above with your real URLs.
+[![Rashid's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ra5hidIslam)](https://github.com/anuraghazra/github-readme-stats)
 
-Pin 2–4 repos on your profile (RAG project, plant classifier, Medhavi, PAN pipeline).
-
-Consider adding a short case study for 1–2 projects describing problem → approach → impact (metrics).
