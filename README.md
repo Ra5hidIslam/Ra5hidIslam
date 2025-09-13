@@ -75,7 +75,8 @@ GATE CS Qualified (Reg: CS22S14025180) — March 2022
 
 Deep Learning (Coursera) — Certificate ID: YVCJLYZASWRJ
 
-📌 Quick Links & Notes
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ra5hidIslam&size_weight=0.5&count_weight=0.5)
 
 Replace the LinkedIn / GitHub links above with your real URLs.
 
