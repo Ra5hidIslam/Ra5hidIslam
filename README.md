@@ -1,82 +1,22 @@
-Hi — I’m Rashidul Islam 👋
+Hi — I’m Rashidul 👋
 
-LLM / AI Engineer · Guwahati · rasidulislam71@gmail.com · +91 75968 68248
+LLM / AI Engineer · Guwahati · rasidulislam71@gmail.com
+ · +91 75968 68248
 LinkedIn
  • GitHub
 
-🚀 Summary
+What I build
 
-LLM/AI Engineer with end-to-end experience shipping agentic chatbots, RAG pipelines, and computer-vision / NLP systems. I build production-grade ML features and infra (ingestion → retrieval → model → eval/observability) focused on measurable product impact. Skilled in Python, LangChain / LangGraph, Flask, Docker, and AWS; experienced with vector DBs (FAISS, Pinecone, Qdrant) and evaluation harnesses.
+I ship practical LLM/agent systems and production ML features — RAG chatbots, ingestion → retrieval pipelines, and CV/NLP tools that actually move product metrics.
 
-🔎 Currently
+Selected highlights
 
-Open to roles in LLM engineering, RAG systems, and AI/agents. I’m actively shipping RAG chatbots and instrumentation for observability and eval.
+🔧 RAG / Agents — Built agentic chatbots with LangGraph/LangChain for e-commerce and government use-cases (reduced support load, improved discovery).
 
-🛠 Skills
+🌱 House Plant Classifier — React + Flask app using EfficientNet on ~14k images → ~96% real-world accuracy.
 
-LLM & Agents: LangGraph · LangChain · RAG · tool-calling · prompt design · context/chunking · eval harnesses
-ML / CV / NLP: PyTorch · TensorFlow · OpenCV · EasyOCR · spaCy · pandas
-Backend & DevOps: Python · Flask · REST · Docker · Nginx / Gunicorn · AWS (EC2, S3, LightSail) · Linux
-Data & DBs: MongoDB · FAISS · Pinecone · Qdrant
-Languages: Python · JavaScript · C / C++
+🧾 Doc OCR & Validation — OCR pipelines for Indian IDs (Aadhaar, PAN) deployed on AWS — ~90% internal accuracy.
 
-💼 Work Experience
-SmatBot — Data Scientist · Hyderabad
+Tech I use
 
-2025 – Present
-
-Shipped agentic chatbots using LangGraph for E-commerce, Real-estate and Government domains; reduced customer service costs and improved product discovery & sales.
-
-Built RAG chatbots with guardrails and context engineering to reduce hallucinations and improve answer reliability.
-
-Designed ingestion pipelines converting large heterogeneous Excel/PDF/DOCX data into machine-ingestible JSON/text, improving retrieval quality for LLMs.
-
-SmatBot — Data Science Intern · Hyderabad
-
-2022
-
-Developed OCR extraction programs for Passport, Aadhaar, PAN, and Voter Card; deployed via Flask + Gunicorn on AWS; reached ~90% accuracy on internal datasets.
-
-Built an end-to-end document validation system tailored for Indian identity formats.
-
-Developed a multilingual chatbot (Rasa) supporting English and Hindi intents/responses.
-
-📂 Selected Projects
-House Plant Classification · 2024–2025
-
-End-to-end image classification site: React frontend, Flask backend, MongoDB.
-
-Transfer learning (EfficientNet-0) on ~14k images → 96% accuracy.
-
-Dockerized and deployed on AWS LightSail.
-
-Medhavi.com · 2023
-
-Led a 4-person team to build a test & Q&A platform for JEE/NEET aspirants.
-
-Designed full architecture: React + Flask + MongoDB.
-
-PAN Card Information Retrieval · 2022
-
-Pipeline isolating PAN cards from images and extracting fields using OpenCV + EasyOCR.
-
-Digit Recognizer (Kaggle) · 2021–2022
-
-CNN for MNIST with ~99% accuracy.
-
-🎓 Education
-
-Heritage Institute of Technology, Kolkata
-B.Tech — Electronics & Instrumentation Engineering · Graduated Sep 2021
-
-🏅 Certifications & Achievements
-
-GATE CS Qualified (Reg: CS22S14025180) — March 2022
-
-Deep Learning (Coursera) — Certificate ID: YVCJLYZASWRJ
-
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ra5hidIslam&size_weight=0.5&count_weight=0.5)
-
-[![Rashid's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ra5hidIslam)](https://github.com/anuraghazra/github-readme-stats)
-
+Python · LangChain / LangGraph · PyTorch · Flask · Docker · FAISS · Pinecone · Qdrant · MongoDB · AWS
