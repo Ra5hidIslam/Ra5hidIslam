@@ -14,19 +14,28 @@ Currently working at <a href="https://www.smatbot.com">SmatBot</a> <img src="htt
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
-```javascript
-const rashidul = {
-  code: ["Python", "JavaScript", "C/C++"],
-  tools: ["LangChain", "LangGraph", "Flask", "Docker", "React", "PyTorch", "AWS"],
-  interests: ["RAG pipelines", "Agentic chatbots", "Computer Vision", "NLP"],
-  work: {
-    current: "Data Scientist @ SmatBot",
-    past: ["Data Science Intern @ SmatBot"]
-  },
-  projects: [
-    "House Plant Classifier (~96% accuracy on 14k images)",
-    "PAN Card OCR Pipeline",
-    "Medhavi.com (EdTech Platform)"
-  ],
-  challenge: "Pushing boundaries of RAG + LLM observability in production"
-}
+```python
+class SystemsEngineer:
+    def __init__(self):
+        self.languages = ["C++ (Buffer Pools, Indexing)", "Python (RAG, Agents)", "Rust (Exposure)"]
+        self.infrastructure = ["LangChain", "Vector DBs (LanceDB, Qdrant)", "Docker", "AWS"]
+        
+        self.current_work = {
+            "role": "AI Engineer @ SmatBot",
+            "focus": "Optimizing inference latency & shipping agentic workflows"
+        }
+        
+        self.open_source_contributions = [
+            "Docling (IBM) - Optimized table detection (BFS/Flood Fill)",
+            "LanceDB - Implemented Sync/Async API parity in Python SDK"
+        ]
+
+    def current_projects(self):
+        return [
+            "CMU BusTub (Database Internals Implementation)",
+            "High-Throughput RAG Ingestion Pipeline",
+            "Production Chatbot Platform (FastAPI + Node.js SSE)"
+        ]
+
+    def challenge(self):
+        return "Building database internals and reducing hallucination rates in production."
