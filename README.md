@@ -34,7 +34,7 @@ class SystemsEngineer:
         return [
             "CMU BusTub (Database Internals Implementation)",
             "High-Throughput RAG Ingestion Pipeline",
-            "Production Chatbot Platform (FastAPI + Node.js SSE)"
+            "Autonomous Content Agent (LangGraph + Map-Reduce Architecture)"
         ]
 
     def challenge(self):
