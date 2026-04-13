@@ -2,7 +2,7 @@
 
 <img align='right' src="https://media1.tenor.com/m/GfSX-u7VGM4AAAAC/coding.gif" width="230">
 
-<p><em>LLM / AI Engineer based in <b>Guwahati, India</b> <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
+<p><em>Systems Engineer – Inference & Database Internals, based in <b>Guwahati, India</b> <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
 Currently working at <a href="https://www.smatbot.com">SmatBot</a> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 </em></p>
 
@@ -17,25 +17,27 @@ Currently working at <a href="https://www.smatbot.com">SmatBot</a> <img src="htt
 ```python
 class SystemsEngineer:
     def __init__(self):
-        self.languages = ["C++ (Buffer Pools, Indexing)", "Python (RAG, Agents)", "Rust (Exposure)"]
-        self.infrastructure = ["LangChain", "Vector DBs (LanceDB, Qdrant)", "Docker", "AWS"]
+        self.languages = ["C++", "Python", "Rust", "Metal (MSL)"]
+        self.systems = ["Buffer Pools", "B+ Trees", "Concurrency Control", "GPU Kernels"]
+        self.infrastructure = ["FastAPI", "Docker", "AWS", "Linux"]
         
         self.current_work = {
-            "role": "AI Engineer @ SmatBot",
-            "focus": "Optimizing inference latency & shipping agentic workflows"
+            "role": "AI & Systems Engineer @ SmatBot",
+            "focus": "Inference latency optimization & high-throughput data pipelines"
         }
         
-        self.open_source_contributions = [
-            "Docling (IBM) - Optimized table detection (BFS/Flood Fill)",
-            "LanceDB - Implemented Sync/Async API parity in Python SDK"
-        ]
+        self.open_source = {
+            "llama.cpp": "Metal GPU backend — GGML_OP_CONV_3D (F16/F32) & Gated Linear Attention kernels",
+            "Docling (IBM)": "Re-engineered table detection with Flood Fill (BFS)",
+            "LanceDB": "Sync/Async API parity in Python SDK"
+        }
 
-    def current_projects(self):
+    def deep_tech_projects(self):
         return [
-            "CMU BusTub (Database Internals Implementation)",
-            "High-Throughput RAG Ingestion Pipeline",
-            "Autonomous Content Agent (LangGraph + Map-Reduce Architecture)"
+            "CMU BusTub — Buffer Pool Manager, B+ Tree Index, Query Execution (C++)",
+            "Metal kernel development for inference operators (MSL/GGML)",
+            "Production inference pipeline re-architecture (25-35% latency reduction)"
         ]
 
-    def challenge(self):
-        return "Building database internals and reducing hallucination rates in production."
+    def currently_exploring(self):
+        return "GPU compute, inference optimization, and database internals."
