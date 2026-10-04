@@ -17,27 +17,34 @@ Currently working at <a href="https://www.smatbot.com">SmatBot</a> <img src="htt
 ```python
 class SystemsEngineer:
     def __init__(self):
-        self.languages = ["C++", "Python", "Rust", "Metal (MSL)"]
+        self.languages = ["C++", "Python", "Rust", "SQL", "Metal (MSL)", "CUDA"]
         self.systems = ["Buffer Pools", "B+ Trees", "Concurrency Control", "GPU Kernels"]
-        self.infrastructure = ["FastAPI", "Docker", "AWS", "Linux"]
-        
+        self.inference = ["vLLM", "llama.cpp / GGML", "Speculative Decoding", "FP8/AWQ Quantization"]
+        self.infrastructure = ["FastAPI", "AsyncIO", "Docker", "AWS", "Nginx", "Linux"]
+
         self.current_work = {
-            "role": "AI & Systems Engineer @ SmatBot",
-            "focus": "Inference latency optimization & high-throughput data pipelines"
+            "role": "AI Engineer @ WAI Global",
+            "focus": "Designing a self-hosted LLM inference stack (vLLM, continuous batching, prefix caching)"
         }
-        
+
+        self.previous_work = {
+            "role": "AI & Systems Engineer @ SmatBot",
+            "impact": "Re-architected inference pipeline: -25% mean / -35% median latency"
+        }
+
         self.open_source = {
-            "llama.cpp": "Metal GPU backend — GGML_OP_CONV_3D (F16/F32) & Gated Linear Attention kernels",
-            "Docling (IBM)": "Re-engineered table detection with Flood Fill (BFS)",
-            "LanceDB": "Sync/Async API parity in Python SDK"
+            "vLLM": "Debugged illegal-memory-access crash in MTP speculative decoding (Issue #37035)",
+            "llama.cpp": "Metal GPU backend: GGML_OP_CONV_3D (F16/F32), ported to CUDA (PR #19927)",
+            "Docling (IBM)": "Re-engineered Excel table detection with Flood Fill (BFS) (PR #2778)",
+            "LanceDB": "Sync/Async API parity in Python SDK via fast_search (PR #2962)"
         }
 
     def deep_tech_projects(self):
         return [
-            "CMU BusTub — Buffer Pool Manager, B+ Tree Index, Query Execution (C++)",
-            "Metal kernel development for inference operators (MSL/GGML)",
-            "Production inference pipeline re-architecture (25-35% latency reduction)"
+            "CMU BusTub: Buffer Pool Manager (ARC), concurrent B+ Tree (latch crabbing), query executors (C++)",
+            "MSL kernels from scratch: memory layout, threadgroup sizing, CPU-reference validation",
+            "Self-hosted LLM inference stack design: vLLM + provider-agnostic gateway + eval-gated model choice"
         ]
 
     def currently_exploring(self):
-        return "GPU compute, inference optimization, and database internals."
+        return "LLM serving internals, GPU kernels (Metal & CUDA), and database internals."
